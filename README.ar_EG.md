@@ -28,6 +28,11 @@
 bash <(curl -Ls https://raw.githubusercontent.com/RisesunStudios/3x-ui/master/install.sh)
 ```
 
+## v2.9.4
+```
+bash <(curl -Ls https://raw.githubusercontent.com/RisesunStudios/3x-ui/master/install.sh) v2.9.4
+```
+
 للحصول على الوثائق الكاملة، يرجى زيارة [ويكي المشروع](https://github.com/RisesunStudios/3x-ui/wiki).
 
 ## شكر خاص إلى
