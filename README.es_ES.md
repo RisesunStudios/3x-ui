@@ -28,6 +28,11 @@ Como una versión mejorada del proyecto X-UI original, 3X-UI proporciona mayor e
 bash <(curl -Ls https://raw.githubusercontent.com/RisesunStudios/3x-ui/master/install.sh)
 ```
 
+## 安裝指定版本v2.9.4
+```
+bash <(curl -Ls https://raw.githubusercontent.com/RisesunStudios/3x-ui/master/install.sh) v2.9.4
+```
+
 Para documentación completa, visita la [Wiki del proyecto](https://github.com/RisesunStudios/3x-ui/wiki).
 
 ## Un Agradecimiento Especial a
