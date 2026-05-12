@@ -12,10 +12,10 @@ import (
 	"slices"
 	"time"
 
-	"github.com/mhsanaei/3x-ui/v3/config"
-	"github.com/mhsanaei/3x-ui/v3/database/model"
-	"github.com/mhsanaei/3x-ui/v3/util/crypto"
-	"github.com/mhsanaei/3x-ui/v3/xray"
+	"github.com/RisesunStudios/3x-ui/v3/config"
+	"github.com/RisesunStudios/3x-ui/v3/database/model"
+	"github.com/RisesunStudios/3x-ui/v3/util/crypto"
+	"github.com/RisesunStudios/3x-ui/v3/xray"
 
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

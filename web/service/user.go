@@ -3,11 +3,11 @@ package service
 import (
 	"errors"
 
-	"github.com/mhsanaei/3x-ui/v3/database"
-	"github.com/mhsanaei/3x-ui/v3/database/model"
-	"github.com/mhsanaei/3x-ui/v3/logger"
-	"github.com/mhsanaei/3x-ui/v3/util/crypto"
-	ldaputil "github.com/mhsanaei/3x-ui/v3/util/ldap"
+	"github.com/RisesunStudios/3x-ui/v3/database"
+	"github.com/RisesunStudios/3x-ui/v3/database/model"
+	"github.com/RisesunStudios/3x-ui/v3/logger"
+	"github.com/RisesunStudios/3x-ui/v3/util/crypto"
+	ldaputil "github.com/RisesunStudios/3x-ui/v3/util/ldap"
 	"github.com/xlzd/gotp"
 	"gorm.io/gorm"
 )

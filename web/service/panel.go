@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mhsanaei/3x-ui/v3/config"
-	"github.com/mhsanaei/3x-ui/v3/logger"
+	"github.com/RisesunStudios/3x-ui/v3/config"
+	"github.com/RisesunStudios/3x-ui/v3/logger"
 )
 
 // PanelService provides business logic for panel management operations.
@@ -73,7 +73,7 @@ func (s *PanelService) StartUpdate() error {
 	}
 
 	mainFolder, serviceFolder := resolveUpdateFolders()
-	updateScript := fmt.Sprintf("set -o pipefail; %s -fLs https://raw.githubusercontent.com/MHSanaei/3x-ui/main/update.sh | %s", shellQuote(curl), shellQuote(bash))
+	updateScript := fmt.Sprintf("set -o pipefail; %s -fLs https://raw.githubusercontent.com/RisesunStudios/3x-ui/main/update.sh | %s", shellQuote(curl), shellQuote(bash))
 
 	if systemdRun, err := exec.LookPath("systemd-run"); err == nil {
 		unitName := fmt.Sprintf("x-ui-web-update-%d", time.Now().Unix())
@@ -115,7 +115,7 @@ func (s *PanelService) StartUpdate() error {
 
 func fetchLatestPanelVersion() (string, error) {
 	client := &http.Client{Timeout: 10 * time.Second}
-	resp, err := client.Get("https://api.github.com/repos/MHSanaei/3x-ui/releases/latest")
+	resp, err := client.Get("https://api.github.com/repos/RisesunStudios/3x-ui/releases/latest")
 	if err != nil {
 		return "", err
 	}

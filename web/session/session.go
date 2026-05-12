@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/mhsanaei/3x-ui/v3/database/model"
-	"github.com/mhsanaei/3x-ui/v3/logger"
+	"github.com/RisesunStudios/3x-ui/v3/database/model"
+	"github.com/RisesunStudios/3x-ui/v3/logger"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"

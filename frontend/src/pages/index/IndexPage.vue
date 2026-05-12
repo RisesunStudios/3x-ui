@@ -108,7 +108,7 @@ function openPanelVersion() {
   if (panelUpdateInfo.value.updateAvailable) {
     panelUpdateOpen.value = true;
   } else {
-    window.open('https://github.com/MHSanaei/3x-ui/releases', '_blank', 'noopener,noreferrer');
+    window.open('https://github.com/RisesunStudios/3x-ui/releases', '_blank', 'noopener,noreferrer');
   }
 }
 

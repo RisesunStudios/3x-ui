@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mhsanaei/3x-ui/v3/database/model"
-	"github.com/mhsanaei/3x-ui/v3/logger"
+	"github.com/RisesunStudios/3x-ui/v3/database/model"
+	"github.com/RisesunStudios/3x-ui/v3/logger"
 )
 
 const remoteHTTPTimeout = 10 * time.Second
