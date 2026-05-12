@@ -27,6 +27,10 @@
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/RisesunStudios/3x-ui/master/install.sh)
 ```
+## 安裝指定版本v2.9.4
+```
+bash <(curl -Ls https://raw.githubusercontent.com/RisesunStudios/3x-ui/master/install.sh) v2.9.4
+```
 
 完整文档请参阅 [项目Wiki](https://github.com/RisesunStudios/3x-ui/wiki)。
 
